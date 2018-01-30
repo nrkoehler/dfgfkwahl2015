@@ -17,17 +17,19 @@ Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015, Stand 17.09.2015
 
 ## Installation
 
-You can install dfgfkwahl2015 from github with:
+Das R Paket `dfgfkwahl2015` kann folgendermaßen installiert werden:
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("nrkoehler/dfgfkwahl2015")
 ```
 
-## Example
+## Beispiele
 
-This is a basic example which shows you how to solve a common problem:
+Laden des Datensatzes, der eine Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 beinhaltet:
 
-```{r example}
-## basic example code
+```{r example1}
+library(dfgfkwahl2015)
+head(df.dfg[1:5])
+head(df.dfg[6:9])
 ```
