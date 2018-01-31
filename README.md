@@ -5,6 +5,19 @@ dfgfkwahl2015
 
 Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015, Stand 17.09.2015
 
+Hintergrund
+===========
+
+Die Deutsche Forschungsgemeinschaft (DFG) ist die europaweit größte Forschungsförderungsorganisation mit einem Jahresetat von aktuell etwa 3 Milliarden Euro (2016). Die Aufgabe der DFG besteht in der Auswahl und Finanzierung wissenschaftlicher Forschungsvorhaben an Hochschulen und Forschungsinstituten.
+
+Laut [DFG](http://www.dfg.de/dfg_profil/aufgaben/index.html) werden eingereichte FörderantrÃ€ge in einem mehrstufigen Entscheidungsverfahren "von ehrenamtlich tÃ€tigen Gutachterinnen und Gutachtern nach ausschließlich wissenschaftlichen Kriterien beurteilt." In einem zweiten Schritt werden diese Fachgutachten von Mitgliedern sogenannter *Fachkollegien* bewertet. Diese treffen eine Vorauswahl und entscheiden, ob ein Antragsverfahren weitergefÃŒhrt oder eingestellt wird. Die eigentliche Förderentscheidung liegt jedoch beim DFG-Hauptausschuss.
+
+Für die Wahl der Fachkollegien wurde im Jahr 2014 eine neue Wahlordnung verabschiedet, nach der jene Kandidaten mit den meisten Wahlvorschlägen einen Platz auf den Wahllisten bekommen. Dies habe, so der Bamberger Historiker Hartwin Brandt in zwei Beiträgen für die Frankfurter Allgemeine Zeitung (FAZ, 17.05.2017, 18.10.2017) zu inoffiziellen Absprachen zwischen Hochschulvertetern geführt -- mit dem Ziel, die eigenen Kanditaten auf die Wahllisten zu platzieren.
+
+Brandt, der für den Bereich "Klassische Philologie" einen "Nordverbund" bestehend aus den Universitäten Bremen, Greifswald, Hamburg, Kiel und Rostock identifiziert, vermutet, dass eine "detaillierte Analyse der mehr als 600 Seiten umfassenden DFG-Liste der Kandidierenden etliche weitere Auffälligkeiten und Kompensationsgeschäfte zutage fördern" dürfte und mutmaßt, dass "soziologische Netzwerk- und Freundschaftsforscher ihre Freude an diesem Datensatz haben werden".
+
+`dfgfkwahl2015` stellt die von der DFG im PDF-Format veröffentlichte Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 als analysierbaren Datensatz zur Verfügung.
+
 Installation
 ------------
 
