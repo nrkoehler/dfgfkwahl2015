@@ -6,7 +6,9 @@
 \title{DFG--Kandidierendenliste 2015}
 \format{A data frame with 9695 rows and 9 variables:
 \describe{
+    \item{Group}{Wissenschaftsbereich}
      \item{Fach}{Nummer des Fachkollegiums}
+     \item{Label}{Name des Fachkollegiums}
      \item{Person}{Name und Vorname der kandidierenden Person}
      \item{Sex}{Geschlecht der kandidierenden Person}
      \item{Nr}{Fachnummer}
