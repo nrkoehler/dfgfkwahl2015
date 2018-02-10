@@ -30,7 +30,7 @@
 #'      \item{Kategorie}{Kategorisierung der vorschlagenden Institutionen in: Hochschule, Fachgesellschaft, Sonstiges}
 #'      \item{Platz}{Platzierung}
 #'      \item{Stimmen}{Anzahl der Stimmen (nur fuer gewaehlte Kandidierende)}
-#'      \item{Vote}{Geweahlt: TRUE vs. FALSE}
+#'      \item{Vote}{Gewaehlt: TRUE vs. FALSE}
 #' }
 #' @source \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/fkwahl_2015_kandidierendenliste.pdf}
 #' @source \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/151126_fkwahl_2015_wahlergebnis_vorlaeufig.pdf}
