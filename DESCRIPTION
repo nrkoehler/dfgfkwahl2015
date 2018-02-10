@@ -1,7 +1,7 @@
 Package: dfgfkwahl2015
 Type: Package
 Title: DFG-Fachkollegienwahl 2015
-Version: 0.0.0.9010
+Version: 0.0.0.9011
 Authors@R: person("Norbert", "Koehler", email = "norbert.r.koehler@gmail.com", role = c("aut", "cre"))
 Description: Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015, Stand 17.09.2015
 Depends: R (>= 3.3.3)
