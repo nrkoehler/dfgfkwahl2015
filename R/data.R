@@ -14,7 +14,7 @@
 #'      }
 #' @source \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/2015_systematik_faecher_fachkollegien.pdf}
 "df.sub"
-#' DFG--Kandidierendenliste 2015
+#' DFG--Kandidierendenliste 2015 mit Platzierung und Stimmen
 #' @format A data frame with 9695 rows and 9 variables:
 #' \describe{
 ##'     \item{Group}{Wissenschaftsbereich}

@@ -3,7 +3,7 @@
 \docType{data}
 \name{df.dfg}
 \alias{df.dfg}
-\title{DFG--Kandidierendenliste 2015}
+\title{DFG--Kandidierendenliste 2015 mit Platzierung und Stimmen}
 \format{A data frame with 9695 rows and 9 variables:
 \describe{
     \item{Group}{Wissenschaftsbereich}
@@ -19,7 +19,7 @@
      \item{Kategorie}{Kategorisierung der vorschlagenden Institutionen in: Hochschule, Fachgesellschaft, Sonstiges}
      \item{Platz}{Platzierung}
      \item{Stimmen}{Anzahl der Stimmen (nur fuer gewaehlte Kandidierende)}
-     \item{Vote}{Geweahlt: TRUE vs. FALSE}
+     \item{Vote}{Gewaehlt: TRUE vs. FALSE}
 }}
 \source{
 \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/fkwahl_2015_kandidierendenliste.pdf}
@@ -30,6 +30,6 @@
 df.dfg
 }
 \description{
-DFG--Kandidierendenliste 2015
+DFG--Kandidierendenliste 2015 mit Platzierung und Stimmen
 }
 \keyword{datasets}
