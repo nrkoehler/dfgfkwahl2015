@@ -4,7 +4,7 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, echo = FALSE}
+```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 
 # dfgfkwahl2015
 
-Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015, Stand 17.09.2015
+Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 und Wahlergebnisse
 
 # Hintergrund
 
@@ -38,10 +38,9 @@ devtools::install_github("nrkoehler/dfgfkwahl2015")
 
 ## Beispiele
 
-Laden des Datensatzes, der eine Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 beinhaltet:
+Laden des Datensatzes, der eine Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 und die Wahlergebnisse beinhaltet:
 
 ```{r example1}
 library(dfgfkwahl2015)
-library(dplyr)
-glimpse(df.dfg)
+dplyr::glimpse(df.dfg)
 ```

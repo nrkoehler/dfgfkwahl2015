@@ -3,7 +3,7 @@
 dfgfkwahl2015
 =============
 
-Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015, Stand 17.09.2015
+Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 und Wahlergebnisse
 
 Hintergrund
 ===========
@@ -16,7 +16,7 @@ Für die Wahl der Fachkollegien wurde im Jahr 2014 eine neue Wahlordnung verabsc
 
 Brandt, der für den Bereich "Klassische Philologie" einen "Nordverbund" bestehend aus den Universitäten Bremen, Greifswald, Hamburg, Kiel und Rostock identifiziert, vermutet, dass eine "detaillierte Analyse der mehr als 600 Seiten umfassenden DFG-Liste der Kandidierenden etliche weitere Auffälligkeiten und Kompensationsgeschäfte zutage fördern" dürfte und mutmaßt, dass "soziologische Netzwerk- und Freundschaftsforscher ihre Freude an diesem Datensatz haben werden".
 
-`dfgfkwahl2015` stellt die von der DFG im PDF-Format veröffentlichte Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 als analysierbaren Datensatz zur Verfügung.
+`dfgfkwahl2015` stellt die von der DFG im PDF-Format veröffentlichte Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 sowie die Wahlergebnisse als analysierbaren Datensatz zur Verfügung.
 
 Installation
 ------------
@@ -31,20 +31,11 @@ devtools::install_github("nrkoehler/dfgfkwahl2015")
 Beispiele
 ---------
 
-Laden des Datensatzes, der eine Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 beinhaltet:
+Laden des Datensatzes, der eine Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 und die Wahlergebnisse beinhaltet:
 
 ``` r
 library(dfgfkwahl2015)
-library(dplyr)
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
-glimpse(df.dfg)
+dplyr::glimpse(df.dfg)
 #> Observations: 9,695
 #> Variables: 14
 #> $ Group       <fct> Geistes- und Sozialwissenschaften, Geistes- und So...
