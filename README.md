@@ -3,7 +3,7 @@
 dfgfkwahl2015
 =============
 
-Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 und Wahlergebnisse
+DFG-Fachkollegienwahl 2015: Kandidierende, vorschlagende Institutionen und Ergebnisse
 
 Hintergrund
 ===========
