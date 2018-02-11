@@ -42,6 +42,6 @@ Laden des Datensatzes, der eine Liste der Kandidierenden für die DFG-Fachkollegi
 
 ```{r example1}
 library(dfgfkwahl2015)
-head(df.dfg[1:5])
-head(df.dfg[6:9])
+library(dplyr)
+glimpse(df.dfg)
 ```

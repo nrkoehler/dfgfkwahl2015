@@ -35,20 +35,30 @@ Laden des Datensatzes, der eine Liste der Kandidierenden für die DFG-Fachkolleg
 
 ``` r
 library(dfgfkwahl2015)
-head(df.dfg[1:5])
-#>     Fach                        Person Sex Nr Institution
-#> 1 FN_101                  Bemmann, Jan   m  1      U Bonn
-#> 2 FN_101            Brather, Sebastian   m  1  U Freiburg
-#> 3 FN_101            Brather, Sebastian   m  1  U Freiburg
-#> 4 FN_101 Gaudzinski-Windheuser, Sabine   f  1        RGZM
-#> 5 FN_101                 Hansen, Svend   m  1         DAI
-#> 6 FN_101                 Hansen, Svend   m  1         DAI
-head(df.dfg[6:9])
-#>                          Von AP AK        Kategorie
-#> 1                     U Bonn  3  9       Hochschule
-#> 2                 U Freiburg  3  9       Hochschule
-#> 3                        WGL  3  9        Sonstiges
-#> 4                        WGL  3  9        Sonstiges
-#> 5      Dt. Verb. f. Archäol.  3  9 Fachgesellschaft
-#> 6 Stiftung Preuß. Kulturbes.  3  9        Sonstiges
+library(dplyr)
+#> 
+#> Attaching package: 'dplyr'
+#> The following objects are masked from 'package:stats':
+#> 
+#>     filter, lag
+#> The following objects are masked from 'package:base':
+#> 
+#>     intersect, setdiff, setequal, union
+glimpse(df.dfg)
+#> Observations: 9,695
+#> Variables: 14
+#> $ Group       <fct> Geistes- und Sozialwissenschaften, Geistes- und So...
+#> $ Fach        <chr> "FN_101", "FN_101", "FN_101", "FN_101", "FN_101", ...
+#> $ Label       <chr> "Alte Kulturen", "Alte Kulturen", "Alte Kulturen",...
+#> $ Nr          <chr> "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", ...
+#> $ Person      <chr> "Bemmann, Jan", "Brather, Sebastian", "Brather, Se...
+#> $ Sex         <fct> m, m, m, w, m, m, m, m, m, w, w, w, m, m, m, m, m,...
+#> $ Institution <chr> "U Bonn", "U Freiburg", "U Freiburg", "RGZM", "DAI...
+#> $ Von         <chr> "U Bonn", "U Freiburg", "WGL", "WGL", "Dt. Verb. f...
+#> $ AP          <dbl> 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2,...
+#> $ AK          <dbl> 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 5, 5,...
+#> $ Kategorie   <chr> "Hochschule", "Hochschule", "Sonstiges", "Sonstige...
+#> $ Platz       <dbl> 7, 5, 5, 6, 2, 2, 9, 8, 8, 1, 1, 1, 3, 3, 4, 4, 4,...
+#> $ Stimmen     <dbl> NA, NA, NA, NA, 195, 195, NA, NA, NA, 255, 255, 25...
+#> $ Vote        <lgl> FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, FALSE, FAL...
 ```
