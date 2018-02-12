@@ -18,6 +18,8 @@ Brandt, der für den Bereich "Klassische Philologie" einen "Nordverbund" bestehe
 
 `dfgfkwahl2015` stellt die von der DFG im PDF-Format veröffentlichte Liste der Kandidierenden für die DFG-Fachkollegienwahl 2015 sowie die Wahlergebnisse als analysierbaren Datensatz zur Verfügung.
 
+Eine ausführlichere Darstellung sowie -- demnächst auch -- erste Analysen finden sich auf meinem Blog [Scripts & Statistics](https://scriptsandstatistics.wordpress.com/2018/01/31/analyse-der-dfg-fachkollegienwahl-2015-teil-i/).
+
 Installation
 ------------
 
