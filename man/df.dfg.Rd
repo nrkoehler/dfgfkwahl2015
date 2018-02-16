@@ -13,6 +13,7 @@
      \item{fk.nummer}{Fachkollegium Nummer}
      \item{fk.name}{Fachkollegium Name}
      \item{fach.nummer}{Fach Nummer}
+     \item{fach.name}{Fach Name}
      \item{person.name}{Name und Vorname der kandidierenden Person}
      \item{person.sex}{Geschlecht der kandidierenden Person}
      \item{person.inst}{Institution der kandidierenden Person}
