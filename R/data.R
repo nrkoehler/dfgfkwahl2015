@@ -17,8 +17,8 @@
 #' DFG--Kandidierendenliste 2015 mit Platzierung und Stimmen
 #' @format A data frame with 9695 rows and 18 variables:
 #' \describe{
-#'     \item{bereich.nummer}{Wissenschaftsbereich Nummer}
-#'     \item{bereich.name}{Wissenschaftsbereich Name}
+#'     \item{wb.nummer}{Wissenschaftsbereich Nummer}
+#'     \item{wb.name}{Wissenschaftsbereich Name}
 #'     \item{fg.nummer}{Fachgebiet Nummer}
 #'     \item{fg.name}{Fachgebiet Name}
 #'      \item{fk.nummer}{Fachkollegium Nummer}
