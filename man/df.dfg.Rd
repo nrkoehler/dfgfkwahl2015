@@ -29,6 +29,8 @@
 \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/fkwahl_2015_kandidierendenliste.pdf}
 
 \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/151126_fkwahl_2015_wahlergebnis_vorlaeufig.pdf}
+
+\url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/2015_systematik_faecher_fachkollegien.pdf}
 }
 \usage{
 df.dfg

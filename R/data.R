@@ -1,19 +1,3 @@
-#' Fachkollegien -- Hauptkategorien
-#' @format A data frame with 48 rows and 2 variables:
-#' \describe{
-#'      \item{Fach}{Nummer des Fachkollegiums}
-#'      \item{Label}{Name der Nummer des Fachkollegiums}
-#'      }
-#' @source \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/2015_systematik_faecher_fachkollegien.pdf}
-"df.main"
-#' Fachkollegien -- Unterkategorien
-#' @format A data frame with 213 rows and 2 variables:
-#' \describe{
-#'      \item{Fach}{Fachnummer}
-#'      \item{Label}{Name des Fachs}
-#'      }
-#' @source \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/2015_systematik_faecher_fachkollegien.pdf}
-"df.sub"
 #' DFG--Kandidierendenliste 2015 mit Platzierung und Stimmen
 #' @format A data frame with 9695 rows and 18 variables:
 #' \describe{
@@ -38,5 +22,6 @@
 #' }
 #' @source \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/fkwahl_2015_kandidierendenliste.pdf}
 #' @source \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/151126_fkwahl_2015_wahlergebnis_vorlaeufig.pdf}
+#' @source \url{http://www.dfg.de/download/pdf/dfg_im_profil/gremien/fachkollegien/fk-wahl2015/2015_systematik_faecher_fachkollegien.pdf}
 "df.dfg"
 
